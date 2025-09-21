@@ -1,5 +1,37 @@
+# fastapi
+# uvicorn
+# python-multipart
+# requests
+# python-dotenv
+
+# server/requirements.txt
+
+# Core FastAPI dependencies
 fastapi
 uvicorn
 python-multipart
-requests
+
+# CORS middleware
+fastapi-cors
+
+# Environment variables
 python-dotenv
+
+# HTTP requests for API calls
+requests
+
+# File handling
+aiofiles
+
+# Optional: Database support (if you want to add persistence later)
+# sqlalchemy==2.0.23
+# databases[sqlite]==0.8.0
+
+# Optional: Advanced logging
+# structlog==23.2.0
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0
