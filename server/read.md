@@ -16,3 +16,9 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload --port 8000
 
+
+Example .env
+```bash
+GEMINI_API_KEY=
+TAVILY_API_KEY=
+```
